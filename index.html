@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    	<meta charset="UTF-8">
+		<title>Bennie Davis</title>
+		<meta name="author" content="Benie Davis">
+		<meta name="description" content="A website created for the ART106 
+		class at Anne Arundel Community College">
+		<link rel="stylesheet" href="display.css" type="text/css">
+		<link href="https://fonts.googleapis.com/css?family=Gaegu" rel="stylesheet">
+	</head>
+	
+	<style>
+	a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+</style>
+	</style>
+<body>
+<div id="wrapper">
+
+<nav>
+     <ul>
+         <li><a href="#s1"><h3>Bennie Davis</h3></a></li>
+         <li><a href="#s2"><h3>DADA Collage</h3></a></li>
+         <li><a href="#s3"><h3>Pictogram</h3></a></li>
+         <li><a href="#s4"><h3>Snowglobe</h3></a></li>
+         <li><a href="#s5"><h3>Original</h3></a></li>
+     </ul>
+</nav>
+
+
+<div id="s1">
+	<h1>Bennie Davis</h1>
+	<img src="https://via.placeholder.com/450x350">
+	
+</div>
+ 
+<div id="s2">
+	<h2>DADA Collage</h2>
+	<img src="images/collage1.jpg" alt= "A visual collage piece done with paper cutouts"
+	style=" width:400px,height: 500px;">
+</div>
+ 
+<div id="s3">
+	<h2>Pictogram</h2>
+	<img src="images/birdman.jpg" alt= "A movie poster of Birdman done with pictograms"
+	style=" width:400px,height: 550px;">
+</div>
+ 
+<div id="s4">
+	<h2>Snowglobe</h2>
+	<img src="images/fish.gif" alt= "A school of koi in a camera lens-"
+	style=" width:400px,height: 550px;">
+</div>
+ 
+<div id="s5">
+	<h2>Original</h2>
+	<img src="https://via.placeholder.com/400x500">
+</div>
+ 
+
+  
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+	$('a[href^="#"]').on('click',function (e) {
+	    e.preventDefault();
+
+	    var target = this.hash;
+	    var $target = $(target);
+
+	    $('html, body').stop().animate({
+	        'scrollTop': $target.offset().top
+	    }, 1200, 'swing', function () {
+	        window.location.hash = target;
+	    });
+	});
+});</script>
+
+</div>
+  </body>
+</html>

@@ -1,0 +1,128 @@
+body
+{
+	margin:0;
+	padding:0;
+	background-color:#7575a3;
+}
+
+#wrapper
+{
+	padding-bottom: 2em;
+	padding-top: 3em;
+	padding-left: 1em;
+	padding-right: 1em;
+	width: 75%;
+	margin: auto auto;
+	
+}
+
+
+nav
+	{
+		position: fixed;
+		top:0;
+		left:0;
+		height:50px;
+		background-color: #1f1f2e;
+		width: 100%;
+		display: flex;
+		justify-content:center;
+		align-items:center;
+	}
+	
+nav ul
+	{
+		width:60%;
+		margin:0 auto;
+		display: flex;
+		justify-content:space-around;
+		padding:0;
+		
+	}	
+	
+nav ul li
+	{
+		list-style-type:none;
+
+	}
+	
+nav ul li a
+	{
+		color:white;
+	}
+
+h1
+{
+	font-size: 3.75em;
+	color: white;
+	
+}
+
+h2
+{
+	font-size: 2.5em;
+	color: white;
+}
+
+h3
+{
+	font-size:.85em;
+}
+	
+#s1
+	{
+		height:550px;
+		background-color: #0F0F0F;
+		margin-bottom:1.25em;
+		margin-top:10em;
+		padding-top: 1em;
+		font-family: 'Gaegu', cursive;
+		text-align: center;
+	}
+
+#s2
+	{
+		height:650px;
+		background-color: #0F0F0F;
+		margin-bottom:1.25em;
+		margin-top:10em;
+		padding-top: 1em;
+		font-family: 'Gaegu', cursive;
+		text-align: center;
+	}	
+	
+#s3
+	{
+		height:750px;
+		padding-top:60px;
+		background-color: #0F0F0F;
+		margin-bottom:1.25em;
+		margin-top:10em;
+		padding-top: 1em;
+		font-family: 'Gaegu', cursive;
+		text-align: center;
+	}
+	
+#s4
+	{
+		height:650px;
+		padding-top:60px;
+		background-color: #0F0F0F;
+		margin-bottom:1.25em;
+		margin-top:10em;
+		padding-top: 1em;
+		font-family: 'Gaegu', cursive;
+		text-align: center;
+	}
+	
+#s5
+	{
+		height:650px;
+		padding-top:60px;
+		background-color: #0F0F0F;
+		margin-bottom:1.25em;
+		margin-top:10em;
+		padding-top: 1em;
+		font-family: 'Gaegu', cursive;
+		text-align: center;
+	}
